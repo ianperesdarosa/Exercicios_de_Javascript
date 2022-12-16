@@ -1,0 +1,1 @@
+//Local para armazenar todos os meus testes e duvdias do Javasript!!
