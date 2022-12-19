@@ -1,5 +1,4 @@
 //Repetição
-
 for (let i = 0; i < 10; i++) {
     console.log("Hello, World!!!")
 }
@@ -14,7 +13,6 @@ const cartao = {
 for (i in cartao) {
     console.log(i, cartao[i])
 }
-
 
 
 const alunos = ["Ana", "Gabi", "Juliha", "Anderson", "João"];
