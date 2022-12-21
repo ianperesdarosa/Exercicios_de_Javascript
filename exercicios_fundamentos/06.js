@@ -1,16 +1,14 @@
-function inverso (valor) {
-   const tipo = typeof valor
-
-   if (tipo == Boolean) {
-    return !valor;
-   } 
+const inverso = function (valor) { 
+    const tipo = typeof valor;
    
-   else if (tipo == Number) {
-    return -valor;
-   }
-
-   else {
-    return `booleano ou número esperados, mas o parâmetro é do tipo ${tipo}`
-   }
+    if (tipo  == "boolean") { 
+        return !valor 
+    }
+    else if (tipo  == "number") {
+        return -valor
+    } 
+    else {
+      return `booleano ou número esperados, mas o parâmetro é do tipo ${tipo}`
+    }
 }
-inverso(2)
+console.log(inverso(2))
