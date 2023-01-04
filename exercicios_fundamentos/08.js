@@ -1,7 +1,8 @@
-const fun = (element, valor) => {
+const fun = (valor) => {
     for (let i = 0; i < valor; i++) {
+        const element = "+"
         console.log(element)
     }
 }
 
-fun("ian", 4)
+fun(2)
