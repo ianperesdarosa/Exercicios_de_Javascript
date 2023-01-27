@@ -1,8 +1,8 @@
-const fun = (valor) => {
-    for (let i = 0; i < valor; i++) {
-        const element = "+"
+const fun = (rep, value) => {
+    for (let i = 0; i < rep; i++) {
+        const element = value
         console.log(element)
     }
 }
 
-fun(2)
+fun(2, "Ola")
