@@ -1,4 +1,4 @@
-function main()  {
+const main = function()  {
     const num = 4;
     const process = num % 2;
 
