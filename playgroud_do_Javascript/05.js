@@ -1,15 +1,14 @@
-const main = function()  {
-    const num = 4;
+const main = function(num)  {
     const process = num % 2;
 
-    if(process = 0) {
+    if (process == 0) {
 
-        console.log('O número ${num} é Par');
+        return `O número ${process} é Par`;
         
     } else {
 
-        console.log('O número ${num}é ìmpar');
+        return `O número ${process} é ìmpar`;
     }
 }
 
-main();
+console.log(main(2));

@@ -3,4 +3,4 @@ const valores = function (element, valor) {
         console.log(element)
     }
 }
-valores("codigo", 2);
+valores("Ian", 2);
