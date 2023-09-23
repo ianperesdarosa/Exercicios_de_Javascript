@@ -5,15 +5,15 @@ class Pessoa {
         this.idade = idade
     }
 
-    set nome(nome) {
+    set_nome(nome) {
         this.nome = nome
     }
 
-    get nome() {
+    get_nome() {
         console.log(this.nome)
     }
 }
 
 const g = new Pessoa()
-g.nome("Ian")
-g.nome();
+g.set_nome("Ian")
+g.get_nome()
